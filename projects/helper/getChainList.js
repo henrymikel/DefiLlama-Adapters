@@ -97,4 +97,4 @@ function checkFileExistsSync(filepath) {
 
 const chainNames = require('./chains.json')
 chainNames.sort()
-fs.writeFileSync(path.join(__dirname, './chains.json'), JSON.stringify(chainNames, null, 2))
+fs.writeFileSync(path.join(__dirname, './chains.json'), JSON.stringify(chainNames, null, 2));

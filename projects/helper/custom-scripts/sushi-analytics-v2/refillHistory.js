@@ -43,4 +43,4 @@ for (let ts = endTs; ts >= startTs; ts -= ONE_DAY) {
   }
 }
 
-console.log('\nRefill complete.')
+console.log('\nRefill complete.');

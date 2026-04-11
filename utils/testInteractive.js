@@ -73,4 +73,4 @@ async function runAdapter(adapterPath, debugMode) {
   })
 }
 
-run()
+run();

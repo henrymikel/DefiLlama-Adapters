@@ -151,4 +151,4 @@ function dateStringToTimestamp(dateString) {
   if (!isNaN(timestamp))
     return timestamp
   return dateString
-}
+};

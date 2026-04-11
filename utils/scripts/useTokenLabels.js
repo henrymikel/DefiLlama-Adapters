@@ -73,4 +73,4 @@ function updateFile(file) {
     fileStr = fileStr.replace(tokensRegex, `[$1$2$1 + ${label}]:`)
     fileStr = fileStr.replace(tokensRegex2, `$1$2$1 + ${label}`)
   }
-}
+};
